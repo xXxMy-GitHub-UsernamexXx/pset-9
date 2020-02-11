@@ -16,3 +16,12 @@ let win;
 let xWins = 0;
 let yWins = 0;
 let ties = 0;
+///////////////////// CACHED ELEMENT REFERENCES /////////////////////
+const squares = Array.from(document.querySelectorAll("#board div"));
+const message = document.querySelector("h2");
+const score = document.querySelector("h4");
+///////////////////// EVENT LISTENERS ///////////////////////////////
+window.onload = init;
+document.getElementById("board").onclick = takeTurn;
+document.getElementById("reset").onclick = init;
+document.getElementById("start").onclick = changeStart;
