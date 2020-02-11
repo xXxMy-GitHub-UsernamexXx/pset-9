@@ -25,3 +25,15 @@ window.onload = init;
 document.getElementById("board").onclick = takeTurn;
 document.getElementById("reset").onclick = init;
 document.getElementById("start").onclick = changeStart;
+///////////////////// FUNCTIONS /////////////////////////////////////
+function init() {
+        board = [
+                "", "", "",
+                "", "", "",
+                "", "", ""
+        ];
+        turn = "X";
+        win = null;
+
+        render();
+}
