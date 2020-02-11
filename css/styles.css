@@ -1,0 +1,41 @@
+/*
+ * Sets the overall styles for the page. There aren't many. All text
+ * is centered, and the font is a monospaced Roboto (from Google).
+ */
+
+body {
+        text-align: center;
+        font-family: "Roboto", monospace;
+        background: #9ce9f0;
+}
+
+/*
+ * The header has a different font than the rest of the page. It's the
+ * title, so it makes sense to make it a little different (and bigger).
+ */
+
+h1 {
+        margin: 0 auto;
+        font-family: "Major Mono Display", monospace;
+        font-size: 48px;
+        margin: 2%;
+        color: #1cb876;
+}
+
+/*
+ * The subheader (which let's us know whose turn it is) is a little smaller
+ * and less prominent.
+ */
+
+h2 {
+        font-size: 36px;
+        margin: 2%;
+        color: #1cb876;
+        font-weight: lighter;
+}
+
+h4 {
+        font-size: 26px;
+        color: #1cb876;
+        font-weight: lighter;
+}
