@@ -86,3 +86,9 @@ function getWinner() {
 
         return winner ? winner : board.includes("") ? null : "T";
 }
+
+function changeStart() {
+        turn = turn === "X" ? "O" : "X";
+
+        render();
+}
