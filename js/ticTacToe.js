@@ -54,3 +54,19 @@ function render() {
         }
         score.textContent = `X Wins: ${xWins}   O Wins: ${yWins}   Ties: ${ties}`;
 }
+
+function takeTurn(e) {
+        if (!win) {
+                let index = squares.findIndex(function(square) {
+                        return square === e.target;
+                });
+
+                if (board[index] === "") {
+                        board[index] = turn;
+                        turn = turn === "X" ? "O" : "X";
+                        win = getWinner();
+
+                        render();
+                }
+        }
+}
