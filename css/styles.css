@@ -76,3 +76,49 @@ h4 {
 /*
  * The square itself. We give it a specific size and border.
  */
+
+.square {
+         border: 1px solid #21d589;
+         font-size: 96px;
+         height: 150px;
+         line-height: 150px;
+         user-select: none;
+         width: 150px;
+         color: #1cb876;
+ }
+
+/*
+ * And we give it a little flare when the user mouses over a square.
+ */
+
+.square:hover {
+        background-color: #1cbfd4;
+        cursor: pointer;
+        color: #21d589;
+}
+
+/*
+ * The reset button sits just below the board.
+ */
+
+.button {
+        background-color: #9ce9f0;
+        border: 1px solid #1cb876;
+        color: #1cb876;
+        font-size: 21px;
+        line-height: 55px;
+        margin: 1%;
+        text-align: center;
+        width: 456px;
+}
+
+/*
+ * And a little flare when the user mouses over the button. The color scheme
+ * switches (background and foreground).
+ */
+
+.button:hover {
+        background-color: #1697a7;
+        color: #1cbfd4;
+        cursor: pointer;
+}
