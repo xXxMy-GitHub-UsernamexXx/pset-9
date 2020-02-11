@@ -37,3 +37,20 @@ function init() {
 
         render();
 }
+
+function render() {
+        board.forEach(function(mark, index) {
+                squares[index].textContent = mark;    // writes an X or an O on board
+        });
+
+        message.textContent =
+                win === "T" ? "It's a tie!" : win ? `${win} wins!` : `Turn: ${turn}`;
+        if (win === "X") {
+                xWins += 1;
+        } else if (win === "O") {
+                yWins += 1;
+        } else if (win === "T") {
+                ties += 1;
+        }
+        score.textContent = `X Wins: ${xWins}   O Wins: ${yWins}   Ties: ${ties}`;
+}
