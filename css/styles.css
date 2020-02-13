@@ -6,7 +6,7 @@
 body {
         text-align: center;
         font-family: "Roboto", monospace;
-        background: #9d9d9d;
+        background: #b7b7b7;
 }
 
 /*
@@ -30,14 +30,14 @@ h1 {
 h2 {
         font-size: 36px;
         margin: 2%;
-        color: #5196ae;
-        font-weight: lighter;
+        color: #74abbe;
+        font-weight: 300;
 }
 
 h4 {
         font-size: 26px;
-        color: #5196ae;
-        font-weight: lighter;
+        color: #74abbe;
+        font-weight: 300;
 }
 
 /*
@@ -78,7 +78,7 @@ h4 {
  */
 
 .square {
-         border: 1px solid #cc2a19;
+         border: 1px solid #be8774;
          font-size: 96px;
          height: 150px;
          line-height: 150px;
@@ -94,7 +94,7 @@ h4 {
 .square:hover {
         background-color: #ae6951;
         cursor: pointer;
-        color: #9d9d9d;
+        color: #74abbe;
 }
 
 /*
@@ -102,7 +102,7 @@ h4 {
  */
 
 .button {
-        border: 1px solid #cc2a19;
+        border: 1px solid #be8774;
         color: #5196ae;
         font-size: 21px;
         line-height: 55px;
@@ -118,6 +118,6 @@ h4 {
 
 .button:hover {
         background-color: #ae6951;
-        color: #9d9d9d;
+        color: #74abbe;
         cursor: pointer;
 }
