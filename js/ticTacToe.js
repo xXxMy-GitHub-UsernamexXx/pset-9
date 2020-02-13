@@ -52,7 +52,7 @@ function render() {
         } else if (win === "T") {
                 ties += 1;
         }
-        score.textContent = `X Wins: ${xWins}   O Wins: ${yWins}   Ties: ${ties}`;
+        score.textContent = `X Wins: ${xWins} | O Wins: ${yWins} | Ties: ${ties}`;
 }
 
 function takeTurn(e) {

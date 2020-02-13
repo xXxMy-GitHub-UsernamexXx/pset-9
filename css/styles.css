@@ -6,7 +6,7 @@
 body {
         text-align: center;
         font-family: "Roboto", monospace;
-        background: #9ce9f0;
+        background: #9d9d9d;
 }
 
 /*
@@ -19,7 +19,7 @@ h1 {
         font-family: "Major Mono Display", monospace;
         font-size: 48px;
         margin: 2%;
-        color: #1cb876;
+        color: #5196ae;
 }
 
 /*
@@ -30,13 +30,13 @@ h1 {
 h2 {
         font-size: 36px;
         margin: 2%;
-        color: #1cb876;
+        color: #5196ae;
         font-weight: lighter;
 }
 
 h4 {
         font-size: 26px;
-        color: #1cb876;
+        color: #5196ae;
         font-weight: lighter;
 }
 
@@ -78,13 +78,13 @@ h4 {
  */
 
 .square {
-         border: 1px solid #21d589;
+         border: 1px solid #cc2a19;
          font-size: 96px;
          height: 150px;
          line-height: 150px;
          user-select: none;
          width: 150px;
-         color: #1cb876;
+         color: #5196ae;
  }
 
 /*
@@ -92,9 +92,9 @@ h4 {
  */
 
 .square:hover {
-        background-color: #1cbfd4;
+        background-color: #ae6951;
         cursor: pointer;
-        color: #21d589;
+        color: #9d9d9d;
 }
 
 /*
@@ -102,9 +102,8 @@ h4 {
  */
 
 .button {
-        background-color: #9ce9f0;
-        border: 1px solid #1cb876;
-        color: #1cb876;
+        border: 1px solid #cc2a19;
+        color: #5196ae;
         font-size: 21px;
         line-height: 55px;
         margin: 1%;
@@ -118,7 +117,7 @@ h4 {
  */
 
 .button:hover {
-        background-color: #1697a7;
-        color: #1cbfd4;
+        background-color: #ae6951;
+        color: #9d9d9d;
         cursor: pointer;
 }
