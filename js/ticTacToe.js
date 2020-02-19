@@ -12,6 +12,7 @@ const winningConditions = [
 ///////////////////// APP STATE (VARIABLES) /////////////////////////
 let board;
 let turn;
+let start;
 let win;
 let xWins = 0;
 let yWins = 0;
@@ -89,6 +90,11 @@ function getWinner() {
 
 function changeStart() {
         turn = turn === "X" ? "O" : "X";
+        start = turn;
+
+        init();
+
+        turn = start;
 
         render();
 }
